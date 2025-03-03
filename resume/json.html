@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "First Last",
+        "givenName": "First",
+        "familyName": "Last",
+        "image": "https://placehold.co/600x600?text=Headshot",
+        "description": "Short Bio Lorem ipsum dolor sit amet consectetur adipisicing elit...",
+        "birthDate": "2000-10-12",
+        "nationality": "United States",
+        "homeLocation": {
+          "@type": "Place",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Arkansas",
+            "addressCountry": "USA"
+          }
+        },
+        "telephone": "555-555-5555",
+        "email": "email@mail.com",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2801 South University",
+          "addressLocality": "Little Rock",
+          "postalCode": "72204",
+          "addressCountry": "USA"
+        },
+        "url": "https://github.com/profile",
+        "sameAs": ["https://github.com/profile", "http://linkedin.com/profile"],
+        "knowsAbout": ["HTML", "PHP", "Java", "Scss"],
+        "worksFor": [
+          {
+            "@type": "Organization",
+            "name": "Company Name 1",
+            "jobTitle": "Lead Web Developer",
+            "startDate": "2010-02-01",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit...",
+            "url": "http://link-to-company.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Anywhere, USA"
+            }
+          },
+          {
+            "@type": "Organization",
+            "name": "Company Name 2",
+            "jobTitle": "Senior Developer",
+            "startDate": "2006-02-21",
+            "endDate": "2009-02-21",
+            "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit...",
+            "url": "http://link-to-company.com",
+            "address": {
+              "@type": "PostalAddress",
+              "addressLocality": "Anywhere, USA"
+            }
+          }
+        ],
+        "alumniOf": {
+          "@type": "EducationalOrganization",
+          "name": "University Name 1",
+          "description": "BA Web Design and Development",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Anywhere, USA"
+          },
+          "startDate": "2005-01-01",
+          "endDate": "2007-01-01"
+        }
+      }
+    </script>
+
+    <title>Resume</title>
+  </head>
+  <body>
+    <header class="container" id="top">
+      <!-- Main navigation -->
+      <nav class="primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Main -->
+    <main class="container">
+      <h1 class="page-title">Caleb Noland</h1>
+      <section id="about">
+        <h2>Personal Details</h2>
+        <div class="bio">
+          <img
+            src="https://placehold.co/600x600?text=Headshot"
+            alt="Your Name"
+          />
+          <p>
+            Results-driven programmer with a diverse skill set. Skilled in C++,
+            Python, SQL and Front-End, with a strong track record of constant
+            improvement. Passionate about software and web-based development and
+            committed to delivering the highest possible quality.
+          </p>
+        </div>
+        <dl class="details">
+          <dt>Name</dt>
+          <dd>Caleb Noland</dd>
+          <dt>Date of birth</dt>
+          <dd><time datetime="2000-10-12">03/08/2004</time></dd>
+          <dt>Nationality</dt>
+          <dd>United States</dd>
+          <dt>Location</dt>
+          <dd>Arkansas</dd>
+          <dt>Telephone</dt>
+          <dd>
+            <a href="tel:555-555-5555">501.626.8969</a>
+          </dd>
+          <dt>Email</dt>
+          <dd>
+            <a href="mailto:email@mail.com">calebnol89@gmail.com</a>
+          </dd>
+          <dt>Address</dt>
+          <dd>
+            <span>4040 RobinWood Circle</span>
+            <span>Bryant</span>
+            <span>72022</span>
+            <span>USA</span>
+          </dd>
+        </dl>
+        <ul class="related-links">
+          <li><a href="https://github.com/profile"> github</a></li>
+          <li><a href="http://linkedin.com/profile">linkedin</a></li>
+          <li><a href="resume.pdf" download>pdf resume</a></li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li class="skill">HTML</li>
+          <li class="skill">C++</li>
+          <li class="skill">Python</li>
+          <li class="skill">SQL</li>
+        </ul>
+      </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <article class="job">
+          <h3>Shift Lead</h3>
+          <div>
+            <span>7 Brew</span>
+            <span>May 2023 - PRESENT</span>
+            <p>
+              Lead the shift, including makings on the fly decisions,
+              multi-tasking, and assigning tasks based on coworkers strengths
+              and weaknesses
+            </p>
+            <span>
+              <a href="https://7brew.com/">7 Brew</a>
+              <span>Anywhere, USA</span>
+            </span>
+          </div>
+        </article>
+        <article class="job">
+          <h3>Cashier</h3>
+          <span>
+            <span>Buffalo Wild Wings</span>
+            <a href="https://www.buffalowildwings.com/">Buffalo Wild Wings</a>
+            <span>Anywhere, USA</span>
+          </span>
+          <div>
+            <span>May 2022</span> -
+            <span>July 2022</span>
+          </div>
+          <p>
+            Take cash payments and interact with customers while verifying order
+            accuracy
+          </p>
+        </article>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <article class="certificate">
+          <h3><abbr title="Master of Science">BA</abbr> Computer Science</h3>
+          <span>University of Arkansas at Little Rock</span>
+          <span>Arkansas, USA</span>
+          <span>2022-2026</span>
+        </article>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <div id="copyright">&copy; 2025 Caleb | <a href="#top">Top</a></div>
+    </footer>
+  </body>
+</html>
