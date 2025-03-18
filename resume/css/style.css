@@ -273,6 +273,37 @@
   
   @media screen and (min-width:768px){
     
+    header.container{
+      max-width:900px;
+    }
+    main.container{
+    max-width:900px;
+    }
+    
+    #about{
+      display:grid;
+      gap: 20px;
+      grid-template-columns: 300px 1fr auto;
+      grid-template-areas:
+      "personal personal personal"
+      "bio details details"
+      "related related related";
+    }
+    
+    .bio{
+    grid-area:bio;
+  }
+  .details{
+    grid-area:details;
+  }
+    
+   .related-links{
+    grid-area:related;
+    border-bottom:1px solid #999;
+    padding-bottom:50px
+  } 
+   
+    
     
     
     
