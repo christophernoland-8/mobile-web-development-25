@@ -278,6 +278,13 @@
     }
     main.container{
     max-width:900px;
+    grid-template-columns: 36.5% auto;  
+    grid-template-areas:
+      "title title"
+      "about about"
+      "skills experience"
+      "education experience"
+      ;  
     }
     
     #about{
@@ -302,11 +309,76 @@
     border-bottom:1px solid #999;
     padding-bottom:50px
   } 
+    
+    #about {
+    grid-area: about;
+  }
+  #skills {
+    grid-area: skills;
+  }
+  #experience {
+    grid-area: experience;
+  }
+  #education {
+    grid-area: education;
+  }
    
     
     
     
     
+    
+  }
+  
+  @media screen and (min-width:992px){
+    
+    img{
+      max-width:80%;
+    }
+    
+    .bio{
+         justify-content:center;
+      align-items: center;
+    }
+    
+    header.container{
+      max-width:1400px;
+    }
+    main.container{
+    max-width:1400px;
+    }
+    
+    main.container{
+    max-width:1400px;
+    grid-template-columns: 36.5% auto;  
+    grid-template-areas:
+      "title title"
+      "about about"
+      "skills experience"
+      "education experience"
+      ;  
+    } 
+    
+    #about{
+      display:grid;
+      gap: 20px;
+      grid-template-columns: 600px 1fr auto;
+      grid-template-areas:
+      "personal personal personal"
+      "bio details details"
+      "related related related";
+    }
+    
+  
+  #skills {
+    grid-area: skills;
+  }
+  #experience {
+    grid-area: experience;
+  }
+  #education {
+    grid-area: education;
+  }
     
   }
   
