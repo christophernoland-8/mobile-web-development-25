@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Demo</title>
+</head>
+<body>
+    <h1>Image Demo</h1>
+    <p>This is a demo page to showcase the image.</p>
+    <img 
+  src="img/gallaprocess-1200x675.jpg" 
+  srcset="
+    img/climber_320w.png 320w,
+    img/limber_480w.png 480w,
+    img/climber_768w.png 768w,
+    img/climber_1024w.png 1024w,
+    img/climber_1440w.png 1440w
+  "
+  sizes="(max-width: 320px) 280px, 
+         (max-width: 480px) 440px, 
+         (max-width: 768px) 728px,
+         (max-width: 1024px) 984px,
+         1440px"
+  alt="Boulderer climbing an overhang with mountains in the background."
+>
+    <p>Image description goes here.</p>
+</body>
+</html>
