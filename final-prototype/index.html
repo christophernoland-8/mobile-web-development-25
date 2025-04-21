@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Call Me If You Get Lost: Estate Sale</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    :root {
+      --background-color: #f9efce;
+      --font-color: #4A2C1D;
+      --table-color-1: #68c9d2;
+      --table-color-2: #f8c1bf;
+    }
+
+    body {
+      background-color: var(--background-color);
+      color: var(--font-color);
+      font-family: 'Helvetica Neue', sans-serif;
+    }
+
+    h1, .accordion-button {
+      color: var(--font-color);
+    }
+
+    .accordion-button {
+      background-color: var(--table-color-1);
+      color: var(--font-color);
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: var(--table-color-2);
+    }
+
+    .accordion-body {
+      padding: 0;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    thead th {
+      background-color: var(--table-color-1);
+      color: var(--font-color);
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: var(--table-color-2);
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: var(--table-color-1);
+    }
+
+    table td, table th {
+      padding: 0.75rem;
+      text-align: center;
+    }
+
+    .img-fluid {
+      border-radius: 0.5rem;
+    }
+  </style>
+</head>
+
+<body class="text-center">
+
+  <div class="container py-4">
+    <h1 class="h4 mb-4">CALL ME IF YOU GET LOST: THE ESTATE SALE OUT NOW</h1>
+
+    <img src="img/Tyler Baudelaire.jpg" alt="Tyler Baudelaire" class="img-fluid mb-3" />
+
+    <img src="img/cmiyglVinylLogo.jfif" alt="Listen Now" class="img-fluid mb-4" style="max-width: 200px;" />
+
+    <!-- Tour Dates Table -->
+    <div class="accordion mb-4" id="tourDates">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDates">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDates" aria-expanded="true" aria-controls="collapseDates">
+            2022 Tour Dates
+          </button>
+        </h2>
+        <div id="collapseDates" class="accordion-collapse collapse show" aria-labelledby="headingDates">
+          <div class="accordion-body">
+            <table class="table table-bordered">
+              <thead>
+                <tr>
+                  <th>City</th>
+                  <th>Date</th>
+                  <th>Location</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr><td>El Paso, TX</td><td>Feb.14</td><td>Don Haskins</td></tr>
+                <tr><td>St. Louis, MO</td><td>Feb.18</td><td>Chaifetz Arena</td></tr>
+                <tr><td>Chicago, IL</td><td>Feb.22</td><td>United Center</td></tr>
+                <tr><td>Detroit, MI</td><td>Feb.28</td><td>DCU Center</td></tr>
+                <tr><td>Montreal, QC</td><td>Mar.7</td><td>Place Bell</td></tr>
+                <tr><td>Toronto, ON</td><td>Mar.11</td><td>Scotiabank Arena</td></tr>
+                <tr><td>Orlando, FL</td><td>Mar.18</td><td>Amway Center</td></tr>
+                <tr><td>Denver, CO</td><td>Mar.29</td><td>Ball Arena</td></tr>
+                <tr><td>Oakland, CA</td><td>Apr.1</td><td>Golden1</td></tr>
+                <tr><td>Portland, OR</td><td>Apr.4</td><td>Moda Center</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pink Car Image -->
+    <img src="img/pinkCar.jpg" alt="Pink Car" class="img-fluid mb-4" />
+
+    <!-- Music Posters -->
+    <div class="row g-3 justify-content-center mb-4">
+      <div class="col-6 col-sm-4">
+        <img src="img/SorryNotSorry.jpg" class="img-fluid" alt="Sorry Not Sorry Poster" />
+      </div>
+      <div class="col-6 col-sm-4">
+        <img src="img/wusyaname.png" class="img-fluid" alt="Wusyaname Poster" />
+      </div>
+    </div>
+
+    <!-- BSS Album -->
+    <img src="img/BSS.jpg" alt="BSS Album Cover" class="img-fluid mb-4" />
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
