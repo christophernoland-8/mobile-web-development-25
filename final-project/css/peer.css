@@ -1,0 +1,39 @@
+ body {
+      margin: 0;
+      padding: 2rem;
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      color: #000;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 1.8rem;
+    }
+
+    ol {
+      max-width: 700px;
+      margin: 0 auto;
+      padding: 0;
+      list-style-position: inside;
+    }
+
+    li {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border: 1px solid #000;
+      border-radius: 4px;
+      background-color: #fff;
+    }
+
+    li h2 {
+      margin-top: 0;
+      font-size: 1.2rem;
+      text-decoration: underline;
+    }
+
+    li p {
+      margin: 0.5rem 0 0;
+      line-height: 1.5;
+    }

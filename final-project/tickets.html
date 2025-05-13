@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tyler, The Creator - Estate Sale Tour Tickets</title>
+  <link rel="stylesheet" href="css/tickets.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>TYLER, THE CREATOR</h1>
+      <h2>Call Me If You Get Lost: The Estate Sale Tour</h2>
+    </header>
+
+    <section class="tour-dates">
+      <h3>Select Your City</h3>
+      <select id="city-select">
+        <option value="">-- Choose a city --</option>
+        <option value="nyc">New York City - Madison Square Garden</option>
+        <option value="la">Los Angeles - Crypto.com Arena</option>
+        <option value="chicago">Chicago - United Center</option>
+        <option value="atlanta">Atlanta - State Farm Arena</option>
+      </select>
+    </section>
+
+    <section class="ticket-options">
+      <h3>Choose Your Tickets</h3>
+      <label><input type="radio" name="ticket" value="ga" /> General Admission - $99</label><br/>
+      <label><input type="radio" name="ticket" value="vip" /> VIP Pit Access - $199</label><br/>
+      <label><input type="radio" name="ticket" value="gold" /> Estate Gold Experience - $349</label>
+    </section>
+
+    <section class="quantity">
+      <h3>How many tickets?</h3>
+      <input type="number" id="ticket-quantity" min="1" max="10" value="1" />
+    </section>
+
+    <button id="checkout-btn">Checkout</button>
+
+    <footer>
+      <p>© 2025 Tyler, The Creator. All rights reserved.</p>
+    </footer>
+  </div>
+</body>
+</html>

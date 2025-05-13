@@ -8,15 +8,16 @@
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="Final Project: Call Me If You Get Lost: Estate Sale tour website">
 
-  <meta property="og:title" content="">
-  <meta property="og:type" content="">
-  <meta property="og:url" content="">
-  <meta property="og:image" content="">
 
-  <link rel="icon" href="/favicon.ico" sizes="any">
-  <link rel="icon" href="/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="icon.png">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+<link rel="manifest" href="img/site.webmanifest">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap" rel="stylesheet">
+ 
 
   <link rel="manifest" href="site.webmanifest">
   <meta name="theme-color" content="#fafafa">
@@ -25,13 +26,17 @@
 <body>
 
   <header>
+    <div class="center-stack">
   <h1>CALL ME IF YOU GET LOST: THE ESTATE SALE OUT NOW</h1>
-    <img id = "TylerBaudelaire" src="img/Tyler Baudelaire.jpg"/>
+    <img id = "TylerBaudelaire" src="img/TylerBaudelaire.jpg" alt="Tyler" />
+    </div>
   
-  <img id = "ListenNow" src="img/cmiyglVinylLogo.jfif"/>
+  <a href="https://open.spotify.com/album/1GG6U2SSJPHO6XsFiBzxYv"><img id = "ListenNow" src="img/VinylListen.png" alt="Listen" /></a>
   </header>
 
-<div id = "Dates">
+  <main>
+
+<section id = "tour-dates">
   <table>
   <tr>
     <th>City</th>
@@ -39,77 +44,113 @@
     <th>Locations</th>
   </tr>
   <tr>
-    <td>El Paso, TX</td>
+    <td><a href="tickets.html">El Paso, TX</a></td>
     <td>Feb.14 2022</td>
     <td>Don Haskins</td>
   </tr>
   <tr>
-    <td>St.Louis, MO</td>
+    <td><a href="tickets.html">St.Louis, MO</a></td>
     <td>Feb.18 2022</td>
     <td>Chaifetz Arena</td>
   </tr>
     <tr>
-    <td>Chicago, IL</td>
+    <td><a href="tickets.html">Chicago, IL</a></td>
     <td>Feb.22 2022</td>
     <td>United Center</td>
   </tr>
     <tr>
-    <td>Detroit, MI</td>
+    <td><a href="tickets.html">Detroit, MI</a></td>
     <td>Feb.28 2022</td>
     <td>DCU Center</td>
   </tr>
     <tr>
-    <td>Montreal, QC</td>
+    <td><a href="tickets.html">Montreal, QC</a></td>
     <td>Mar.7 2022</td>
     <td>Place Bell</td>
   </tr>
     <tr>
-    <td>Toronto, ON</td>
+    <td><a href="tickets.html">Toronto, ON</a></td>
     <td>Mar.11 2022</td>
     <td>Scotiabank Arena</td>
   </tr>
     <tr>
-    <td>Orlando, FL</td>
+    <td><a href="tickets.html">Orlando, FL</a></td>
     <td>Mar.18 2022</td>
     <td>Amway Center</td>
   </tr>
     <tr>
-    <td>Denver, CO</td>
+    <td><a href="tickets.html">Denver, CO</a></td>
     <td>Mar.29 2022</td>
     <td>Ball Arena</td>
   </tr>
     <tr>
-    <td>Oakland, CA</td>
+    <td><a href="tickets.html">Oakland, CA</a></td>
     <td>Apr.1 2022</td>
     <td>Golden1</td>
   </tr>
     <tr>
-    <td>Portland, OR</td>
+    <td><a href="tickets.html">Portland, OR</a></td>
     <td>Apr.4 2022</td>
     <td>Moda Center</td>
   </tr>
   </table>
   
-</div>
+</section>
 
-<img id="Pink Car" src="img/pinkCar.jpg"/>
-<div id = "Music Posters">
-  <img src="img/SorryNotSorry.jpg"/>
-  <img src="img/wusyaname.png"/>
-</div>
+<section id="media">
+  <img id="pink-car" src="img/pinkCar.jpg"
 
-<div id="BSS">
-  <img src="img/BSS.jpg"/>
-</div>
+  srcset="
+    img/pinkCar_xs.jpg 320w,
+    img/pinkCar_sm.jpg 480w,
+    img/pinkCar_md.jpg 768w,
+    img/pinkCar_lg.jpg 1024w,
+    img/pinkCar_xl.jpg 1440w"
+
+    sizes="
+    (max-width: 320px) 280px,
+    (max-width: 480px) 440px,
+    (max-width: 768px) 728px,
+    (max-width: 1024px) 984px,
+    1440px"
   
-  
-  
-  
-  
+  alt="Pink Car"/>
+  <div class="music-posters">
+    <img 
+        id="sorry" src="img/SorryNotSorry.jpg" alt="Sorry Not Sorry Poster" />
+    <img 
+    id="wus"         src="img/wusyaname2.jpg" alt="Wusyaname Poster" />
+    
+    
+    <img 
+        id="BF" src="img/BoyfriendGirlfriend.png" alt="Boyfriend, Girlfriend Poster" />
+    
+    <img 
+        id="Dogtooth" src="img/Dogtooth.jpeg" alt="Dogtooth Poster" />
+    
+    <img 
+        id="Wharftalk" src="img/Wharftalk.png" alt="Wharf Talk Poster" />
+    
+    <img 
+        id="Stuntman" src="img/stuntman.png" alt="Stuntman Poster" />
+    
+  </div>
+  <div id="bss">
+    <video poster="img/BSS.jpg" controls="controls" width="640" height="360">
+      <source  src="img/BROWNSUGARSALMON.mp4" type="video/mp4" />
+      <source  src="img/BROWNSUGARSALMON.webm" type="video/webm" />
+      <source  src="img/BROWN-SUGAR-SALMON.ogg" type="video/ogg" />
+    </video>
+  </div>
+</section>
+
+  </main>
+  <footer>
+    <p class="archive-note">This site is part of an archived collection and is no longer actively updated.</p>
+    <p class="footer-copy">© 2025 Tyler, The Creator. All rights reserved.</p>
+  </footer>
   
   <script src="js/app.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 
 </html>

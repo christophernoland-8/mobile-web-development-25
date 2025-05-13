@@ -1,0 +1,29 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      line-height: 1.6;
+      background: #fdfdfd;
+      color: #333;
+    }
+
+    h1 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    @media print {
+      body {
+        margin: 0;
+        padding: 1in;
+        background: white;
+        color: black;
+      }
+    }
